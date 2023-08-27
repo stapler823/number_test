@@ -35,4 +35,4 @@ class User(db.Model):
 class UserSchema(ma.SQLAlchemyAutoSchema):
     class Meta:
       model = User
-      fields = ('id', 'name', 'address', 'tel', 'mail')
+      fields = ('id', 'name', 'mail')
